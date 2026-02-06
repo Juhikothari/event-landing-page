@@ -224,3 +224,4 @@ For questions or issues:
 
 **Happy coding! 🚀**
 
+Made with ❤️ for event organizers everywhere
