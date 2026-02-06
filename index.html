@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechFuture Summit 2026 - Join industry leaders for the future of technology">
+    <title>TechFuture Summit 2026 | Innovation Conference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">TechFuture Summit</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#speakers" class="nav-link">Speakers</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                <li><a href="#register" class="nav-link nav-cta">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title animate-fade-in">TechFuture Summit 2026</h1>
+            <p class="hero-subtitle animate-fade-in-delay">Shaping Tomorrow's Technology Today</p>
+            <div class="hero-details animate-fade-in-delay-2">
+                <div class="detail-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span>March 15-17, 2026</span>
+                </div>
+                <div class="detail-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>San Francisco, CA</span>
+                </div>
+            </div>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            <a href="#register" class="btn btn-primary btn-large">Secure Your Spot</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About The Summit</h2>
+            <p class="section-intro">Join 2,000+ technology leaders, innovators, and entrepreneurs for three days of groundbreaking insights, networking, and inspiration.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎤</div>
+                    <h3>50+ Expert Speakers</h3>
+                    <p>Learn from industry pioneers and thought leaders shaping the future of technology</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Networking Events</h3>
+                    <p>Connect with peers, mentors, and potential collaborators from around the world</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Hands-on Workshops</h3>
+                    <p>Participate in interactive sessions covering AI, blockchain, and emerging tech</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Innovation Awards</h3>
+                    <p>Celebrate groundbreaking projects and startups changing the tech landscape</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers" id="speakers">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <p class="section-intro">Meet the visionaries who will be sharing their expertise and insights</p>
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <div class="speaker-placeholder">👨‍💼</div>
+                    </div>
+                    <h3>Dr. Sarah Chen</h3>
+                    <p class="speaker-title">Chief AI Officer, FutureTech</p>
+                    <p class="speaker-topic">Keynote: "The Ethics of AI in 2026"</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <div class="speaker-placeholder">👩‍💻</div>
+                    </div>
+                    <h3>Marcus Williams</h3>
+                    <p class="speaker-title">Founder, CloudNative Solutions</p>
+                    <p class="speaker-topic">Workshop: "Scaling Modern Applications"</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <div class="speaker-placeholder">👨‍🔬</div>
+                    </div>
+                    <h3>Prof. Ahmed Hassan</h3>
+                    <p class="speaker-title">Quantum Computing Researcher, MIT</p>
+                    <p class="speaker-topic">Talk: "Quantum Leap: Beyond Classical Computing"</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <div class="speaker-placeholder">👩‍🚀</div>
+                    </div>
+                    <h3>Lisa Rodriguez</h3>
+                    <p class="speaker-title">VP of Innovation, SpaceTech Inc</p>
+                    <p class="speaker-topic">Panel: "The Future of Space Technology"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <h2 class="section-title">Event Schedule</h2>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-day="day1">Day 1 - March 15</button>
+                <button class="tab-btn" data-day="day2">Day 2 - March 16</button>
+                <button class="tab-btn" data-day="day3">Day 3 - March 17</button>
+            </div>
+            <div class="schedule-content">
+                <div class="schedule-day active" id="day1">
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Registration & Welcome Coffee</h3>
+                            <p>Main Hall</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Opening Keynote: The Ethics of AI in 2026</h3>
+                            <p>Dr. Sarah Chen • Auditorium A</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">11:30 AM</div>
+                        <div class="schedule-details">
+                            <h3>Panel: The State of Machine Learning</h3>
+                            <p>Multiple Speakers • Auditorium A</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">1:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Networking Lunch</h3>
+                            <p>Grand Ballroom</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">2:30 PM</div>
+                        <div class="schedule-details">
+                            <h3>Workshop: Scaling Modern Applications</h3>
+                            <p>Marcus Williams • Workshop Room 1</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">5:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Welcome Reception</h3>
+                            <p>Rooftop Terrace</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="day2">
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Morning Coffee & Networking</h3>
+                            <p>Main Hall</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Talk: Quantum Leap: Beyond Classical Computing</h3>
+                            <p>Prof. Ahmed Hassan • Auditorium B</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">11:30 AM</div>
+                        <div class="schedule-details">
+                            <h3>Workshop: Building with Blockchain</h3>
+                            <p>Multiple Tracks • Workshop Rooms</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">1:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Lunch & Startup Showcase</h3>
+                            <p>Exhibition Hall</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">3:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Panel: The Future of Space Technology</h3>
+                            <p>Lisa Rodriguez & Guests • Auditorium A</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">6:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Innovation Awards Ceremony</h3>
+                            <p>Grand Ballroom</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="day3">
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Breakfast & Final Networking</h3>
+                            <p>Main Hall</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">10:00 AM</div>
+                        <div class="schedule-details">
+                            <h3>Lightning Talks: Emerging Technologies</h3>
+                            <p>Various Speakers • Auditorium A</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">12:00 PM</div>
+                        <div class="schedule-details">
+                            <h3>Closing Keynote: Looking Ahead to 2027</h3>
+                            <p>Special Guest • Auditorium A</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">1:30 PM</div>
+                        <div class="schedule-details">
+                            <h3>Farewell Lunch</h3>
+                            <p>Grand Ballroom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="register" id="register">
+        <div class="container">
+            <h2 class="section-title">Register Now</h2>
+            <p class="section-intro">Secure your spot at TechFuture Summit 2026. Early bird pricing ends soon!</p>
+            <div class="registration-container">
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <h3>Early Bird</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                        </div>
+                        <p class="price-note">Until Feb 28, 2026</p>
+                        <ul class="features-list">
+                            <li>✓ All sessions access</li>
+                            <li>✓ Networking events</li>
+                            <li>✓ Conference materials</li>
+                            <li>✓ Lunch included</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="badge">Most Popular</div>
+                        <h3>Standard</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">699</span>
+                        </div>
+                        <p class="price-note">Regular pricing</p>
+                        <ul class="features-list">
+                            <li>✓ All sessions access</li>
+                            <li>✓ Networking events</li>
+                            <li>✓ Conference materials</li>
+                            <li>✓ Lunch included</li>
+                            <li>✓ 1 Workshop of choice</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>VIP</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1299</span>
+                        </div>
+                        <p class="price-note">Premium experience</p>
+                        <ul class="features-list">
+                            <li>✓ Everything in Standard</li>
+                            <li>✓ All workshops</li>
+                            <li>✓ VIP lounge access</li>
+                            <li>✓ Speaker meet & greet</li>
+                            <li>✓ Premium swag bag</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="registration-form-container">
+                    <form class="registration-form" id="registrationForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="jobTitle">Job Title</label>
+                            <input type="text" id="jobTitle" name="jobTitle">
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketType">Ticket Type *</label>
+                            <select id="ticketType" name="ticketType" required>
+                                <option value="">Select a ticket type</option>
+                                <option value="early-bird">Early Bird - $499</option>
+                                <option value="standard">Standard - $699</option>
+                                <option value="vip">VIP - $1299</option>
+                            </select>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <span>Send me updates about future events</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Complete Registration</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <h3>Registration Successful!</h3>
+                        <p>Thank you for registering. We've sent a confirmation email to your inbox.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechFuture Summit</h3>
+                    <p>Shaping tomorrow's technology today. Join us for three days of innovation and inspiration.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Email: info@techfuturesummit.com</li>
+                        <li>Phone: (555) 123-4567</li>
+                        <li>Location: San Francisco, CA</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechFuture Summit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
